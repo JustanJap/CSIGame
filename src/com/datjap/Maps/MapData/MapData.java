@@ -1,15 +1,10 @@
 package com.datjap.Maps.MapData;
 
-import com.datjap.main.Location;
-
 public class MapData {
-	Location location;
-	
-	public Location getLocation() {
-		return location;
+
+	public MapData parse(String mapData) {
+		// TODO Auto-generated method stub
+		return null;
 	}
-	
-	public void setLocation(Location location) {
-		this.location = location;
-	}
+
 }

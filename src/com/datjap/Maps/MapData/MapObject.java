@@ -1,11 +1,15 @@
 package com.datjap.Maps.MapData;
 
-import com.datjap.main.Location;
+public class MapObject extends MapData implements MapDataInterface {
+	public static String[] dataTypes = new String[] { "solid" };
 
-public class MapObject extends MapData{
-	public static String[] dataTypes = new String[] {"solid"};
-	
-	public MapObject(Location location) {
-		this.setLocation(location);
+	public MapObject(String mapDataInput) {
+
+	}
+
+	@Override
+	public String[] getTypes() {
+		// TODO Auto-generated method stub
+		return dataTypes;
 	}
 }

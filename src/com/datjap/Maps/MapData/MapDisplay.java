@@ -1,11 +1,16 @@
 package com.datjap.Maps.MapData;
 
-import com.datjap.main.Location;
+public class MapDisplay extends MapData implements MapDataInterface {
+	public static String[] dataTypes = new String[] { "texture" };
 
-public class MapDisplay extends MapData{
-	public static String[] dataTypes = new String[] {"texture"};
+	public MapDisplay(String mapDataInput) {
 
-	public MapDisplay(Location location) {
-		this.setLocation(location);
 	}
+
+	@Override
+	public String[] getTypes() {
+		// TODO Auto-generated method stub
+		return dataTypes;
+	}
+
 }
